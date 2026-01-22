@@ -424,7 +424,7 @@ st.markdown("""
         <a href="tel:+221771479009" style="display: inline-block; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4); transition: transform 0.3s ease;">
             📞 Appelez-moi
         </a>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dioufmakhtar77@gmail.com&su=Projet Data - Contact Portfolio" style="display: inline-block; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%); color: white; padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(220, 38, 38, 0.4); transition: transform 0.3s ease;">
+        <a href='mailto:dioufmakhtar77@gmail.com?subject=Projet%20Data%20-%20Contact%20Portfolio' style='display: inline-block; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%); color: white; padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(220, 38, 38, 0.4); transition: transform 0.3s ease;'>
             ✉️ Écrivez-moi
         </a>
     </div>

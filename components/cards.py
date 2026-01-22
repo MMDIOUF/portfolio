@@ -13,10 +13,11 @@ def create_info_card(title, data_dict, icon="📊", color="primary"):
         items_html += f"<p><strong>{label}:</strong> {value}</p>\n"
     
     html = f"""
-    <div class="box box-{color}">
-        <h3>{icon} {title}</h3>
-        {items_html}
-    """
+<div class="box box-{color}">
+    <h3>{icon} {title}</h3>
+    {items_html}
+</div>
+"""
     return html
 
 
@@ -38,10 +39,11 @@ def create_metric_card(value, label, icon="📈", gradient="default"):
     }
     
     html = f"""
-    <div style="text-align: center; padding: 30px; border-radius: 12px; 
-                background: {gradients[gradient]}; color: white; 
-                box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);">
-        <div style="font-size: 1.2em; opacity: 0.9;">{icon} {label}
-        <div style="font-size: 3em; font-weight: bold; margin: 10px 0;">{value}
-    """
+<div style="text-align: center; padding: 30px; border-radius: 12px; 
+            background: {gradients[gradient]}; color: white; 
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);">
+    <div style="font-size: 1.2em; opacity: 0.9;">{icon} {label}</div>
+    <div style="font-size: 3em; font-weight: bold; margin: 10px 0;">{value}</div>
+</div>
+"""
     return html
