@@ -420,7 +420,12 @@ st.markdown("""
     <p style="font-size: 1.3rem; color: #6b7280; margin-bottom: 2.5rem; max-width: 700px; margin-left: auto; margin-right: auto;">
         Je construis des systèmes data qui aident à décider.
     </p>
-    <a href="tel:+221771479009" style="display: inline-block; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; padding: 1rem 3rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4); transition: transform 0.3s ease;">
-        📞 Discutons de votre projet
-    </a>
+    <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+        <a href="tel:+221771479009" style="display: inline-block; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4); transition: transform 0.3s ease;">
+            📞 Appelez-moi
+        </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dioufmakhtar77@gmail.com&su=Projet Data - Contact Portfolio" style="display: inline-block; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%); color: white; padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(220, 38, 38, 0.4); transition: transform 0.3s ease;">
+            ✉️ Écrivez-moi
+        </a>
+    </div>
 """, unsafe_allow_html=True)
