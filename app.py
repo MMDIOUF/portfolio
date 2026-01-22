@@ -31,6 +31,44 @@ st.markdown("""
 </div>
 """, unsafe_allow_html=True)
 
+# === SECTION PRÉSENTATION & CONTACT ===
+st.markdown("""
+<div style="text-align: center; padding: 3rem 2rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.08) 0%, rgba(168, 85, 247, 0.08) 100%); border-radius: 20px; margin: 2rem 0;">
+    <div style="max-width: 800px; margin: 0 auto;">
+        <h2 style="font-size: 2.8rem; font-weight: 800; color: #1f2937; margin-bottom: 1rem;">
+            MOUHAMADOU MAKHTAR DIOUF
+        </h2>
+        <p style="font-size: 1.4rem; color: #6366f1; font-weight: 600; margin-bottom: 2rem;">
+            Data Analyst • Business Intelligence • Process Automation
+        </p>
+        <p style="font-size: 1.2rem; color: #374151; line-height: 1.8; margin-bottom: 3rem;">
+            Je transforme vos données en <strong>outils de décision</strong>.<br/>
+            Spécialisé dans l'automatisation des processus et la création de dashboards décisionnels.
+        </p>
+        
+        <p style="font-size: 1.1rem; color: #6b7280; margin-bottom: 2rem;">
+            📍 Dakar, Sénégal • Disponible immédiatement
+        </p>
+        
+        <h3 style="font-size: 1.8rem; font-weight: 700; color: #1f2937; margin-bottom: 1rem;">
+            Prêt à passer à l'action ?
+        </h3>
+        <p style="font-size: 1.2rem; color: #6b7280; margin-bottom: 2rem;">
+            Discutons de votre projet data
+        </p>
+        
+        <div style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap;">
+            <a href="tel:+221771479009" style="display: inline-block; background: linear-gradient(135deg, #6366f1 0%, #a855f7 100%); color: white; padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4); transition: transform 0.3s ease;">
+                📞 Appelez-moi
+            </a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dioufmakhtar77@gmail.com&su=Projet Data - Contact Portfolio" style="display: inline-block; background: linear-gradient(135deg, #dc2626 0%, #ea580c 100%); color: white; padding: 1rem 2.5rem; border-radius: 50px; font-size: 1.2rem; font-weight: 600; text-decoration: none; box-shadow: 0 8px 20px rgba(220, 38, 38, 0.4); transition: transform 0.3s ease;">
+                ✉️ Écrivez-moi
+            </a>
+        </div>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+
 st.markdown("---")
 
 # === ACTE II — LA PROMESSE (POSITIONNEMENT) ===
@@ -59,7 +97,7 @@ with col2:
     st.markdown("""
     <div style="text-align: center; margin: 2rem 0;">
         <p style="font-size: 1.1rem; color: #6b7280;">
-            📞 +221 77 147 90 09 | 📍 Dakar, Sénégal
+            Expertise : Data Analysis • Business Intelligence • Process Automation
         </p>
     </div>
     """, unsafe_allow_html=True)
@@ -70,16 +108,43 @@ st.markdown("---")
 st.markdown("""
 <div style="padding: 3rem 2rem; max-width: 1000px; margin: 0 auto;">
     <h2 style="font-size: 2.2rem; font-weight: 700; color: #1f2937; margin-bottom: 2rem; text-align: center;">
-        👤 L'Homme Derrière la Méthode
+        👤 À Propos de Moi
     </h2>
-    <p style="font-size: 1.2rem; color: #374151; line-height: 1.9; text-align: center; max-width: 800px; margin: 0 auto;">
-        <strong>Data Analyst orienté impact opérationnel.</strong> Mon approche est pragmatique : 
-        <span style="color: #6366f1; font-weight: 600;">une donnée n'a de valeur que si elle est comprise, fiable et utilisée.</span>
-    </p>
-    <p style="font-size: 1.2rem; color: #374151; line-height: 1.9; text-align: center; margin-top: 1.5rem;">
-        J'interviens sur toute la chaîne data : 
-        <strong>Nettoyage → structuration → analyse → visualisation → automatisation</strong>
-    </p>
+    <div style="background: white; padding: 2.5rem; border-radius: 20px; box-shadow: 0 8px 25px rgba(0,0,0,0.1); border-left: 5px solid #6366f1;">
+        <p style="font-size: 1.3rem; color: #374151; line-height: 1.9; text-align: center; margin-bottom: 2rem;">
+            <strong>Data Analyst passionné par l'impact opérationnel.</strong> 
+        </p>
+        <p style="font-size: 1.2rem; color: #374151; line-height: 1.8; text-align: center; margin-bottom: 2rem;">
+            Mon approche est <span style="color: #6366f1; font-weight: 600;">pragmatique et orientée résultats</span> : 
+            une donnée n'a de valeur que si elle est <strong>comprise, fiable et utilisée pour décider</strong>.
+        </p>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 2.5rem;">
+            <div style="text-align: center; padding: 1.5rem; background: #f8fafc; border-radius: 15px;">
+                <div style="font-size: 2.5rem; margin-bottom: 1rem;">🎯</div>
+                <h4 style="color: #1f2937; font-weight: 600; margin-bottom: 0.5rem;">Ma Mission</h4>
+                <p style="color: #6b7280; font-size: 1rem;">Transformer des données complexes en outils de décision simples</p>
+            </div>
+            
+            <div style="text-align: center; padding: 1.5rem; background: #f8fafc; border-radius: 15px;">
+                <div style="font-size: 2.5rem; margin-bottom: 1rem;">⚡</div>
+                <h4 style="color: #1f2937; font-weight: 600; margin-bottom: 0.5rem;">Mon Expertise</h4>
+                <p style="color: #6b7280; font-size: 1rem;">Toute la chaîne data : collecte → analyse → visualisation → automatisation</p>
+            </div>
+            
+            <div style="text-align: center; padding: 1.5rem; background: #f8fafc; border-radius: 15px;">
+                <div style="font-size: 2.5rem; margin-bottom: 1rem;">🚀</div>
+                <h4 style="color: #1f2937; font-weight: 600; margin-bottom: 0.5rem;">Ma Valeur</h4>
+                <p style="color: #6b7280; font-size: 1rem;">Des solutions qui réduisent les erreurs et accélèrent les décisions</p>
+            </div>
+        </div>
+        
+        <div style="text-align: center; margin-top: 2.5rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(168, 85, 247, 0.1) 100%); border-radius: 15px;">
+            <p style="font-size: 1.1rem; color: #374151; font-weight: 600; margin: 0;">
+                💡 <strong>Ma philosophie :</strong> "Les meilleures analyses sont celles qui se comprennent en 30 secondes"
+            </p>
+        </div>
+    </div>
 </div>
 """, unsafe_allow_html=True)
 
